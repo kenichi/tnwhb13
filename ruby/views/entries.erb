@@ -1,0 +1,11 @@
+<% if @entries %>
+
+  <% @entries.each do |e| %>
+   <pre><%= e.to_trigger %></pre>
+  <% end %>
+
+<% else %>
+
+  <em>no entries...</em>
+
+<% end %>

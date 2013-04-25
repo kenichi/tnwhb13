@@ -1,0 +1,48 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags (w/ ObjC support)	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8.1	//
+AGOClient	lib/esri.rb	/^  class AGOClient$/;"	c	class:Esri
+APIClient	lib/pearson.rb	/^    class APIClient < APIClient$/;"	c	class:Pearson.Eyewitness
+APIClient	lib/pearson.rb	/^  class APIClient$/;"	c	class:Pearson
+App	app.rb	/^class App < Sinatra::Base$/;"	c
+AppWorld	features/support/env.rb	/^class AppWorld$/;"	c
+Client	lib/esri.rb	/^    class Client$/;"	c	class:Esri.Geotriggers
+Entry	lib/pearson.rb	/^    class Entry$/;"	c	class:Pearson.Eyewitness
+Esri	lib/esri.rb	/^module Esri$/;"	m
+Eyewitness	lib/pearson.rb	/^  module Eyewitness$/;"	m	class:Pearson
+Geotriggers	lib/esri.rb	/^  module Geotriggers$/;"	m	class:Esri
+NavigationHelpers	features/support/paths.rb	/^module NavigationHelpers$/;"	m
+Pearson	lib/pearson.rb	/^module Pearson$/;"	m
+Turmeric	env.rb	/^module Turmeric$/;"	m
+WithinHelpers	features/step_definitions/web_steps.rb	/^module WithinHelpers$/;"	m
+add_tag_to_trigger	lib/esri.rb	/^      def add_tag_to_trigger entry_id, tag$/;"	f	class:Esri.Geotriggers.Client
+app	spec/spec_helper.rb	/^def app; App; end$/;"	f
+app_token	lib/esri.rb	/^    def app_token$/;"	f	class:Esri.AGOClient
+create_trigger	lib/esri.rb	/^      def create_trigger entry, tags = []$/;"	f	class:Esri.Geotriggers.Client
+create_triggers	app.rb	/^  def create_triggers tag = 'berlin'$/;"	f	class:App
+delete_trigger	lib/esri.rb	/^      def delete_trigger entry_id$/;"	f	class:Esri.Geotriggers.Client
+entries_for	lib/pearson.rb	/^      def entries_for opts = {}$/;"	f	class:Pearson.Eyewitness.APIClient
+entry_for	lib/pearson.rb	/^      def entry_for id$/;"	f	class:Pearson.Eyewitness.APIClient
+fetch_app_token	lib/esri.rb	/^    def fetch_app_token$/;"	f	class:Esri.AGOClient
+from_api	lib/pearson.rb	/^      def self.from_api data$/;"	F	class:Pearson.Eyewitness.Entry
+get	lib/esri.rb	/^      def get method, data = {}$/;"	f	class:Esri.Geotriggers.Client
+get	lib/pearson.rb	/^    def get path = '', opts = {}$/;"	f	class:Pearson.APIClient
+guidebook=	lib/pearson.rb	/^      def guidebook= _guidebook = 'berlin'$/;"	f	class:Pearson.Eyewitness.APIClient
+initialize	lib/esri.rb	/^      def initialize$/;"	f	class:Esri.Geotriggers.Client
+initialize	lib/esri.rb	/^    def initialize hci = nil$/;"	f	class:Esri.AGOClient
+initialize	lib/pearson.rb	/^      def initialize api_key = '', guidebook = 'berlin'$/;"	f	class:Pearson.Eyewitness.APIClient
+initialize	lib/pearson.rb	/^    def initialize api_key = ''$/;"	f	class:Pearson.APIClient
+list_triggers	lib/esri.rb	/^      def list_triggers$/;"	f	class:Esri.Geotriggers.Client
+options_for_select	app.rb	/^    def options_for_select(a, selected = nil)$/;"	f	class:App
+path_to	features/support/paths.rb	/^  def path_to(page_name)$/;"	f	class:NavigationHelpers
+post	lib/esri.rb	/^      def post method, data = {}$/;"	f	class:Esri.Geotriggers.Client
+remove_tag_from_trigger	lib/esri.rb	/^      def remove_tag_from_trigger entry_id, tag$/;"	f	class:Esri.Geotriggers.Client
+set_entries	app.rb	/^  def set_entries$/;"	f	class:App
+to_json	lib/pearson.rb	/^      def to_json(*args)$/;"	f	class:Pearson.Eyewitness.Entry
+to_trigger	lib/pearson.rb	/^      def to_trigger trigger_size = DEFAULT_TRIGGER_SIZE$/;"	f	class:Pearson.Eyewitness.Entry
+url	lib/pearson.rb	/^      def url path = ''$/;"	f	class:Pearson.Eyewitness.APIClient
+url	lib/pearson.rb	/^    def url$/;"	f	class:Pearson.APIClient
+with_scope	features/step_definitions/web_steps.rb	/^  def with_scope(locator)$/;"	f	class:WithinHelpers
