@@ -22,6 +22,17 @@ When a user loads up this app, if they are in one of the cities that the Pearson
 guidebooks for, they will see the pins. They can put their phone away, and when they near
 a place of interest, Esri's Geotriggers platform will push notify the device.
 
+### Presenting...
+
+Demoing this would be rather difficult, since:
+
+* Push Notifications are not supported by the iOS Simulator
+* setting custom location data is not supported by CLLocationManager
+* Pearson Eyewitness does not have a guidebook for Amsterdam
+
+If you really want to see it, come find me, I have seriously hackyscript way to imitate the
+device.
+
 ### NOT DONE
 
 The push notification was to contain an identifier that would link back to the title of
