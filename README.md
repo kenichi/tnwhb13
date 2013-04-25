@@ -13,7 +13,7 @@ This repo contains a [Turmeric](https://github.com/kenichi/turmeric) based ruby 
 that talks to both Pearson Eyewitness and Esri Geotriggers. It offers routes to check for
 guidebook entries, and create Geotriggers from those entries.
 
-It also contians a iPhone app that posts its location data to the tuby webservice. When that
+It also contians a iPhone app that posts its location data to the ruby webservice. When that
 is done, it shows the user pins on a map of the interesting places that the Pearson API came
 back with. It also registers itself to receive Push Notifications from the Geotriggers, that
 were created by the ruby webservice.
